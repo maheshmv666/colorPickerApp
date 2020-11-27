@@ -11,7 +11,7 @@ Colors = [
      'b': 0
     }
 ]
-
+print("something")
 @app.route('/', methods=['GET'])
 def home():
     return "<h1>Color archive for plick</h1><p>This site is a prototype API for plick app to test api integration</p>"
